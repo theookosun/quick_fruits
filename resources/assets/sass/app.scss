@@ -1,0 +1,40 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,600,800|Noto+Serif:400,700|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
+// Normalize CSS
+@import "node_modules/normalize.css/normalize";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font Awesome
+@import "node_modules/font-awesome/scss/font-awesome";
+
+// Sweet Alert
+@import "node_modules/sweetalert/dist/sweetalert";
+
+// Pace page loader
+@import "pace";
+
+// Variables
+@import "variables";
+
+// Margin, Padding and Width
+@import "mp";
+
+//General Styles
+@import "general";
+
+/**
+ * Styles for the homepage
+ */
+	@import "homePage/heroBanner"; // Hero Banner
+	@import "homePage/summary";    // Summary section
+	@import "homePage/referrals";  // Referrals section
+
+/**
+ * Styles for the Subscribe page
+ */
+	@import "subscriptionPage";

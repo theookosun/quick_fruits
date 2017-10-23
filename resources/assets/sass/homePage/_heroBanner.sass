@@ -1,0 +1,51 @@
+/**
+ * Stylesheet for the herobanner section of the quick fruits homepage
+ *
+ * Created by Omadoye Abraham <omadoyeabraham@gmail.com>
+ */
+
+#homepage-hero-banner
+	height: 90vh
+	background: url('../img/fruit-background.jpg')
+	background-size: cover
+	background-repeat: no-repeat
+	color: #FFFFFF
+	position: relative
+	z-index: -1000
+
+	&::after
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: rgba(0, 0, 0, .5)
+
+	//HERO BANNER CONTENT
+	.hero-content
+		z-index: 2
+		font-weight: 400
+		position: relative
+
+		//NAVIGATION BAR
+		.navbar
+			font-size: 2.2rem
+			font-weight: 400
+			letter-spacing: 2px
+			position: relative
+			ul
+				li
+					margin: 0 15px
+
+		//Hero Text
+		.hero-text
+			max-width: 600px
+			float: right
+			position: relative
+			.text-heading
+				font: 5rem $font-family-header
+			.text-body
+				font: 2rem $font-family-body
+		
+			
